@@ -71,7 +71,6 @@ const Hero = () => {
             <span>Calories Burned</span>
             <span>220 kcal</span>
             </div>
-            
           </div>
 
         </div>
