@@ -35,5 +35,6 @@
   transition: 300ms all;
 }
 .btn:hover{
+  
   cursor: pointer;
 }
