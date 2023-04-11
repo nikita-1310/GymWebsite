@@ -121,14 +121,14 @@ color: black;
 }
 .hero-image{
     position: absolute;
-    top: 10rem;
-    right: 8rem;
+    top: 8rem;
+    right: 10rem;
     width: 23rem;
 }
 .hero-image-back{
     position: absolute;
     top:4rem ;
-    right: 20rem;
+    right: 22rem;
     z-index: -1;
     width: 15rem;
 }
@@ -139,10 +139,10 @@ color: black;
     background-color: var(--caloryCard);
     border-radius: 5px;
     padding: 1rem;
-    width: fit-content;
+    width: 200px;
     position: absolute;
     top: 32rem;
-    right: 28rem;
+    right: 35rem;
 }
 .calories>img{
     width: 3rem;
@@ -151,4 +151,11 @@ color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.calories>div>:nth-child(1){
+    color: var(--gray);
+}
+.calories>div>:nth-child(2){
+    color: white;
+    font-size: 1.5rem;
 }
