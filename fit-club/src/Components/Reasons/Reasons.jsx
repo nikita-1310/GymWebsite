@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Reasons.css';
 import image1 from "../../assets/image1.png";
 import image2 from "../../assets/image2.png";
