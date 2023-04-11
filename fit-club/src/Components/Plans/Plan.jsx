@@ -2,7 +2,7 @@ import React from 'react'
 import './Plan.css'
 const Plan = () => {
   return (
-    <div>Plan</div>
+    <div></div>
   )
 }
 
