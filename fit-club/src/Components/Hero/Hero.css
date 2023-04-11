@@ -147,7 +147,7 @@ color: black;
 .calories>img{
     width: 3rem;
 }
-.calories>div{
+.calories > div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
