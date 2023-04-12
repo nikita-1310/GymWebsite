@@ -17,6 +17,7 @@
     color: var(--orange);
     font-weight: bold;
 }
+
 .left-t>:nth-child(2),
 .left-t>:nth-child(3){
     font-weight: bold;
