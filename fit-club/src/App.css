@@ -1,3 +1,8 @@
+*{
+margin :0;
+padding : 0;
+box-sizing : boder-box;
+}
 /* make variables */
 :root {
   --lightgray: #D9D9D9;
@@ -34,7 +39,6 @@
   border: 4px solid transparent;
   transition: 300ms all;
 }
-.btn:hover{
-  
+.btn:hover{  
   cursor: pointer;
 }
