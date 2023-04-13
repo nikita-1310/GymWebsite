@@ -6,7 +6,8 @@ const Join = () => {
 
     const sendEmail = (e)=>{
         e.preventDefault();
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+        emailjs.sendForm('service_lgv1a9c', 'template_e5cpx85', form.current, 'y1BKKlrE0xY16fdz9')
+        // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
         .then((result)=>{
             console.log(result.text);
         },
