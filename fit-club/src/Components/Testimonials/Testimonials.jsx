@@ -4,7 +4,6 @@ import {testimonialsData} from '../../data/testimonialsData';
 import leftArrow from '../../assets/leftArrow.png'
 import rightArrow from '../../assets/rightArrow.png'
 const Testimonials = () => {
-
     const [selected, setSelected] = useState(0);
     const tLength = testimonialsData.length;
 

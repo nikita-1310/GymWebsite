@@ -3,7 +3,6 @@ import './Join.css'
 import emailjs from '@emailjs/browser'
 const Join = () => {
     const form = useRef();
-
     const sendEmail = (e)=>{
         e.preventDefault();
         emailjs.sendForm('service_lgv1a9c', 'template_e5cpx85', form.current, 'y1BKKlrE0xY16fdz9')
